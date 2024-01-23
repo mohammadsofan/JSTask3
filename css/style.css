@@ -25,6 +25,7 @@ img {
   width: 100%;
   object-fit: cover;
 }
-h2 {
+h2,
+span {
   padding: 10px;
 }

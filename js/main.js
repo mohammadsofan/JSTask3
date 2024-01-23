@@ -10,6 +10,7 @@ async function getProducts(){
         <div class="child">
         <img src='${product.thumbnail}'/>
         <h2>${product.title}</h2>
+        <span>$${product.price}</span>
         </div>
         `;
    }).join('');
